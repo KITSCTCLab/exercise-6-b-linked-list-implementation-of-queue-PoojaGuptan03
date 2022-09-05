@@ -26,7 +26,7 @@ class Queue:
             return to_return
 
   def status(self) -> None:
-    temp = self.headd
+    temp = self.head
     while temp!= None:
       print(temp.data, "=>", sep="", end = "")
       temp = temp.next
